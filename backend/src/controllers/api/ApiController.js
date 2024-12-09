@@ -8,6 +8,7 @@ module.exports = {
      * @param {*} res 
      * @returns 
      */
+    //hello
     sample: async (req, res) => {
         return res.json(Response.success("Get User", req.user));
     }
